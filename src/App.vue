@@ -1,6 +1,10 @@
 <template>
   <div id="app">
+    <Header />
     <Dashboard />
+    <Content />
+    <Metric />
+    <Footer />
   </div>
 </template>
 
@@ -8,9 +12,7 @@
 import Dashboard from './components/Dashboard';
 import Header from './components/Header';
 import Content from './components/Content';
-import Metric from './components/Metric';
 import Footer from './components/Footer';
-import Chart from './components/Chart';
 
 export default {
   name: 'App',
@@ -18,9 +20,7 @@ export default {
     Dashboard,
     Header,
     Content,
-    Metric,
     Footer,
-    Chart,
   },
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard">
-    Dashboard
+    [BTC](JPY)
   </div>
 </template>
 
