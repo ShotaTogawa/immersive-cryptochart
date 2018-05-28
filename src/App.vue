@@ -6,11 +6,21 @@
 
 <script>
 import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import Content from './components/Content';
+import Metric from './components/Metric';
+import Footer from './components/Footer';
+import Chart from './components/Chart';
 
 export default {
   name: 'App',
   components: {
     Dashboard,
+    Header,
+    Content,
+    Metric,
+    Footer,
+    Chart,
   },
 };
 </script>

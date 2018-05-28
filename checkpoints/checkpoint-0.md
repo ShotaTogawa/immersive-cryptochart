@@ -30,7 +30,7 @@ There’s only a couple of **truly** new things you are tackling. Most of this, 
 
 ## 下記の項目を実装してみよう：
 
-* [ ] Create the VueJS Components from the wireframe (We don’t have data yet - that’s okay.)
+* [x] Create the VueJS Components from the wireframe (We don’t have data yet - that’s okay.)
   * [ ] Add very basic styling to make the app layout
   * [ ] Add unit tests to test that the components are rendering (See `test/unit/specs/DashBoard.spec.js` for an example)
     * [ ] Run the test cases using `npm test`
