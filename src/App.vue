@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <Header />
     <Dashboard />
-    <Content />
-    <Metric />
-    <Footer />
   </div>
 </template>
 

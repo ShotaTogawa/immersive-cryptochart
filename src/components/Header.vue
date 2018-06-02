@@ -6,14 +6,9 @@
 
 <script>
 export default {
+  name: 'Header',
 };
 </script>
 
-<style>
-header{
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-</style>
+<style scoped>
+

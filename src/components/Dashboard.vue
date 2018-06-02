@@ -1,17 +1,30 @@
 <template>
   <div class="dashboard">
-    [BTC](JPY)
+    <Header></Header>
+    <Content></Content>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Header from './Header';
+import Content from './Content';
+import Footer from './Footer';
+
 export default {
-  name: 'DashBoard',
+  name: 'Dashboard',
+  components: {
+    Header,
+    Content,
+    Footer,
+  },
 };
 </script>
 
 <style scoped>
   .dashboard {
     text-align: center;
+    width: 1200px;
+    height: 800px;
   }
 </style>

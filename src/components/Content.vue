@@ -24,6 +24,7 @@
        label='Market Cap'
        v-bind:value ='marketCap'
        />
+  
   </div>
 </template>
 
@@ -50,11 +51,9 @@ export default {
 };
 </script>
 
-<style>
-div#container{
-  width: 1000px;
-  height: 500px;
-  margin: 0 auto;
-}
-
+<style scoped>
+  .metrics-container {
+    display: flex;
+    justify-content: center;
+  }
 </style>
